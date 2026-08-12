@@ -1,47 +1,53 @@
 # AutoClaw Skills
 
-Open-source AI agent skills maintained by [@LLM-PM](https://github.com/LLM-PM) and distributed through ClawHub.
+Public GitHub home for AI agent skills published by [@LLM-PM](https://github.com/LLM-PM) on ClawHub.
 
-This repository is the canonical public source for AutoClaw skill packages, documentation, maintenance history, and release notes.
+This repository documents the maintainer's ClawHub publications, adoption signals, maintenance policy, and—where the maintainer has confirmed publication rights—the corresponding public source.
 
 ## Adoption
 
 ClawHub usage snapshot (August 2026):
 
-| Skill | Cumulative downloads |
-| --- | ---: |
-| AndonQ | 477 |
-| Cloud Migration CMG (云迁移CMG) | 568 |
-| **Total** | **1,045** |
+| Skill | ClawHub slug | Cumulative downloads |
+| --- | --- | ---: |
+| AndonQ | [`tencent-andon`](https://clawhub.ai/llm-pm/skills/tencent-andon) | 477 |
+| Cloud Migration CMG (云迁移CMG) | [`cmg`](https://clawhub.ai/llm-pm/skills/cmg) | 568 |
+| **Total** |  | **1,045** |
 
-These figures represent cumulative downstream downloads shown by ClawHub and are not monthly-download metrics.
+These figures are cumulative downstream downloads shown by ClawHub, not monthly-download metrics.
 
 ## Published skills
 
-### AndonQ
+### AndonQ (`tencent-andon`)
 
-A Tencent Cloud support workflow skill focused on ticket lookup and product Q&A. It is designed to reduce context switching when users need cloud-product support information.
+Tencent Cloud ticket and intelligent-support skill. Its public ClawHub description covers ticket list/detail/operation workflows, organization tickets and requirement records, and Tencent Cloud product Q&A.
 
-### Cloud Migration CMG (云迁移CMG)
+ClawHub: https://clawhub.ai/llm-pm/skills/tencent-andon
 
-A cloud-migration workflow skill covering resource discovery and inventory, migration-oriented analysis, and cloud migration planning scenarios across major cloud platforms.
+### Cloud Migration CMG (`cmg`)
+
+Tencent Cloud migration workflow skill covering multi-cloud resource discovery, inventory generation, target-spec recommendation, TCO/cost analysis, migration quotation, and planning scenarios.
+
+ClawHub: https://clawhub.ai/llm-pm/skills/cmg
 
 ## Repository layout
 
 ```text
 skills/
-  andonq/
-  cloud-migration-cmg/
+  tencent-andon/
+  cmg/
 ```
 
-Public skill definitions are kept separate from private systems, credentials, internal-only documentation, and proprietary implementation details. Do not commit secrets, tokens, private endpoints, customer data, or internal company material.
+A `SKILL.md` or supporting implementation file is added here only when its provenance and publication rights have been confirmed. Public ClawHub availability by itself is not treated as proof that third-party mirrors or similarly named packages are the authoritative source.
+
+Do not commit secrets, tokens, private endpoints, customer data, internal-only documentation, or proprietary implementation details without explicit authorization.
 
 ## Maintenance
 
-The project is actively maintained. Changes should be traceable through Git history and release notes. Compatibility, security, documentation, and behavior changes are reviewed before publication.
+Changes should be traceable through Git history and release notes. Compatibility, security, documentation, provenance, and behavior changes should be reviewed before publication.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-A repository license will be added after the maintainer selects the intended open-source license. Until then, no additional rights are granted beyond those provided by applicable law.
+A repository-wide license has not yet been selected. Individual skill source should not be relicensed until the maintainer has confirmed that they hold the rights required to do so.
