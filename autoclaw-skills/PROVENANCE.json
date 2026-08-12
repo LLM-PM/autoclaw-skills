@@ -1,0 +1,431 @@
+{
+  "$comment": "Provenance for skills vendored here. 'published' records the ClawHub release the source came from; 'workingTree' records the current in-repo state, which may be a pending release candidate. Verify with tools/verify_provenance.py.",
+  "generatedAt": "2026-08-12",
+  "publisher": {
+    "clawhubHandle": "llm-pm",
+    "clawhubDisplayName": "AutoClaw",
+    "githubLogin": "LLM-PM",
+    "githubUserId": 145959662,
+    "identityEvidence": "The ClawHub publisher profile for llm-pm uses the avatar https://avatars.githubusercontent.com/u/145959662, and GitHub user id 145959662 resolves to github.com/LLM-PM."
+  },
+  "skills": [
+    {
+      "slug": "tencent-andon",
+      "displayName": "AndonQ",
+      "clawhubUrl": "https://clawhub.ai/llm-pm/skills/tencent-andon",
+      "installCommand": "openclaw skills install @llm-pm/tencent-andon",
+      "published": {
+        "version": "1.0.0",
+        "license": "MIT-0",
+        "publishedAt": "2026-03-27T07:08:23Z",
+        "stats": {
+          "comments": 0,
+          "downloads": 477,
+          "installs": 12,
+          "stars": 0,
+          "versions": 1
+        },
+        "source": {
+          "method": "ClawHub public REST API",
+          "packageEndpoint": "https://clawhub.ai/api/v1/download?slug=tencent-andon&ownerHandle=llm-pm&version=1.0.0",
+          "manifestEndpoint": "https://clawhub.ai/api/v1/skills/tencent-andon/versions/1.0.0",
+          "verification": "Every file in the downloaded package was SHA-256 matched against this manifest before use."
+        },
+        "files": [
+          {
+            "path": "check_env.py",
+            "size": 8530,
+            "sha256": "2cd0d0b313872611aa06b1b5eddda39ec4c53505fbc76396be1801bb045e8c14"
+          },
+          {
+            "path": "references/DescribeOrganizationStories.md",
+            "size": 3215,
+            "sha256": "964dba794ee5c9cdaa0f57bb9a81811072392e47f86b133a494c60741f4ce9c7"
+          },
+          {
+            "path": "references/DescribeOrganizationStory.md",
+            "size": 2952,
+            "sha256": "88c41cee9a461a6385386eb723cbc0f001cfcf013f02330b32ca950517e9693c"
+          },
+          {
+            "path": "references/DescribeOrganizationTickets.md",
+            "size": 3597,
+            "sha256": "f3e577be946367968eebc0ec1759ba0176ac2fa873e2ef5957a1c69b4942a586"
+          },
+          {
+            "path": "references/DescribeTicket.md",
+            "size": 4350,
+            "sha256": "b81095843f6ee4b79b8ec444d97511a54bc5408dd1bf603650380d4eb579dfd5"
+          },
+          {
+            "path": "references/DescribeTicketOperation.md",
+            "size": 4469,
+            "sha256": "cbe080a43ffbc440133ac1d68b96ea8779cc6f55d6700e5f15f998c3ab88ab31"
+          },
+          {
+            "path": "references/GetMCTicketById.md",
+            "size": 3156,
+            "sha256": "5a6e3e79e051d3eefe3fb526e3a1fed1f2186f2b80b556e0e8d3cc467e5fc3aa"
+          },
+          {
+            "path": "references/GetMCTicketList.md",
+            "size": 3518,
+            "sha256": "5321951b6b07b90d050baddcae69bf16da3b4fff7b8944ceb4324429a6a03534"
+          },
+          {
+            "path": "references/SmartQA.md",
+            "size": 1836,
+            "sha256": "7188e4c921699b696f6bb99567ba6e642acba7896e2df125899df839d90fba54"
+          },
+          {
+            "path": "scripts/andon-api.py",
+            "size": 690,
+            "sha256": "65a9e92f947feaa7d8efd8960b07da1a35fc61c07ef321c56f4cf91d33394d76"
+          },
+          {
+            "path": "scripts/andon_api.py",
+            "size": 38666,
+            "sha256": "6cd884da32dda3a4327fc50eaa27764e50a60f7deb11bafc9595ee99ed213763"
+          },
+          {
+            "path": "scripts/smartqa-api.py",
+            "size": 455,
+            "sha256": "52eb2e90c214d2b3f5cf6ae586172aae8667cbab0b0ba5e2f348137c83140db7"
+          },
+          {
+            "path": "scripts/smartqa_api.py",
+            "size": 14854,
+            "sha256": "9ad05f9416565fdedcc85d44de8a30b11face0576fa74d1580d56281f72611fb"
+          },
+          {
+            "path": "scripts/__init__.py",
+            "size": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "SKILL.md",
+            "size": 15733,
+            "sha256": "da83ee083da8307b85b6eebe42c2cc84b50376c472121b57097fd004fa956a03"
+          },
+          {
+            "path": "_meta.json",
+            "size": 125,
+            "sha256": "5ce6c7cc71a1c7545fd254a8cbee7306f0af39880f557a4836154b45ac9c62fd"
+          },
+          {
+            "path": "_skillhub_meta.json",
+            "size": 120,
+            "sha256": "55774b7df6d9fed683a622a7b9cc1b7c5b064759ea11869911fac19d830db664"
+          },
+          {
+            "path": "skill-card.md",
+            "size": 2949,
+            "sha256": "0dc587f79685f1345e060dc8cc42b5b7b3527e9ab7046c303689788088718e89"
+          }
+        ],
+        "securityVerdict": {
+          "skillspector": {
+            "status": "suspicious",
+            "severity": "CRITICAL",
+            "recommendation": "DO_NOT_INSTALL",
+            "issueCount": 13
+          },
+          "virustotal": "clean"
+        }
+      },
+      "workingTree": {
+        "version": "1.1.0",
+        "status": "pending-publish",
+        "basedOn": "1.0.0",
+        "note": "Security remediation of the findings recorded against the published release. Not yet published to ClawHub; these files intentionally differ from the published package.",
+        "delta": {
+          "modified": [
+            "SKILL.md",
+            "scripts/andon_api.py"
+          ],
+          "added": [],
+          "removed": [
+            "_meta.json",
+            "_skillhub_meta.json"
+          ]
+        },
+        "files": [
+          {
+            "path": "SKILL.md",
+            "size": 19080,
+            "sha256": "dbbfcae5181e621a52cbc3d59347f9182190242d0c9a61bf72fd010dc00a5810"
+          },
+          {
+            "path": "check_env.py",
+            "size": 8530,
+            "sha256": "2cd0d0b313872611aa06b1b5eddda39ec4c53505fbc76396be1801bb045e8c14"
+          },
+          {
+            "path": "references/DescribeOrganizationStories.md",
+            "size": 3215,
+            "sha256": "964dba794ee5c9cdaa0f57bb9a81811072392e47f86b133a494c60741f4ce9c7"
+          },
+          {
+            "path": "references/DescribeOrganizationStory.md",
+            "size": 2952,
+            "sha256": "88c41cee9a461a6385386eb723cbc0f001cfcf013f02330b32ca950517e9693c"
+          },
+          {
+            "path": "references/DescribeOrganizationTickets.md",
+            "size": 3597,
+            "sha256": "f3e577be946367968eebc0ec1759ba0176ac2fa873e2ef5957a1c69b4942a586"
+          },
+          {
+            "path": "references/DescribeTicket.md",
+            "size": 4350,
+            "sha256": "b81095843f6ee4b79b8ec444d97511a54bc5408dd1bf603650380d4eb579dfd5"
+          },
+          {
+            "path": "references/DescribeTicketOperation.md",
+            "size": 4469,
+            "sha256": "cbe080a43ffbc440133ac1d68b96ea8779cc6f55d6700e5f15f998c3ab88ab31"
+          },
+          {
+            "path": "references/GetMCTicketById.md",
+            "size": 3156,
+            "sha256": "5a6e3e79e051d3eefe3fb526e3a1fed1f2186f2b80b556e0e8d3cc467e5fc3aa"
+          },
+          {
+            "path": "references/GetMCTicketList.md",
+            "size": 3518,
+            "sha256": "5321951b6b07b90d050baddcae69bf16da3b4fff7b8944ceb4324429a6a03534"
+          },
+          {
+            "path": "references/SmartQA.md",
+            "size": 1836,
+            "sha256": "7188e4c921699b696f6bb99567ba6e642acba7896e2df125899df839d90fba54"
+          },
+          {
+            "path": "scripts/__init__.py",
+            "size": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "path": "scripts/andon-api.py",
+            "size": 690,
+            "sha256": "65a9e92f947feaa7d8efd8960b07da1a35fc61c07ef321c56f4cf91d33394d76"
+          },
+          {
+            "path": "scripts/andon_api.py",
+            "size": 41692,
+            "sha256": "677dae760068e8d25447dce53251a382d526563ba66247b770250a752f5fd6f3"
+          },
+          {
+            "path": "scripts/smartqa-api.py",
+            "size": 455,
+            "sha256": "52eb2e90c214d2b3f5cf6ae586172aae8667cbab0b0ba5e2f348137c83140db7"
+          },
+          {
+            "path": "scripts/smartqa_api.py",
+            "size": 14854,
+            "sha256": "9ad05f9416565fdedcc85d44de8a30b11face0576fa74d1580d56281f72611fb"
+          },
+          {
+            "path": "skill-card.md",
+            "size": 2949,
+            "sha256": "0dc587f79685f1345e060dc8cc42b5b7b3527e9ab7046c303689788088718e89"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cmg",
+      "displayName": "云迁移CMG",
+      "clawhubUrl": "https://clawhub.ai/llm-pm/skills/cmg",
+      "installCommand": "openclaw skills install @llm-pm/cmg",
+      "published": {
+        "version": "1.0.0",
+        "license": "MIT-0",
+        "publishedAt": "2026-03-27T03:59:53Z",
+        "stats": {
+          "comments": 0,
+          "downloads": 568,
+          "installs": 15,
+          "stars": 1,
+          "versions": 1
+        },
+        "source": {
+          "method": "ClawHub public REST API",
+          "packageEndpoint": "https://clawhub.ai/api/v1/download?slug=cmg&ownerHandle=llm-pm&version=1.0.0",
+          "manifestEndpoint": "https://clawhub.ai/api/v1/skills/cmg/versions/1.0.0",
+          "verification": "Every file in the downloaded package was SHA-256 matched against this manifest before use."
+        },
+        "files": [
+          {
+            "path": "_skillhub_meta.json",
+            "size": 87,
+            "sha256": "4d24ffbeed37d2681ff1316b0c11d6173b9d7853674cf5cc3f28fd6cd6acfb1c"
+          },
+          {
+            "path": "SKILL.md",
+            "size": 5425,
+            "sha256": "7836f3921454caff25b2f21fc8f155ac5cd4d30ec0aa437cf567e334218192cd"
+          },
+          {
+            "path": "scripts/setup.sh",
+            "size": 5990,
+            "sha256": "07f6bbd51204e0f761e3e21beadfdf5910bae818c5e76b25a74e1cac599db916"
+          },
+          {
+            "path": "scripts/tco_report.py",
+            "size": 51790,
+            "sha256": "b6aa5c36c866bc60297621d1382fce9d7c2617ccc6cea256f30fde03763bcca3"
+          },
+          {
+            "path": "scripts/tco_pricing.py",
+            "size": 27037,
+            "sha256": "3fdd8982288267613c641f755052363f4c1c5969317874b37e17d5341349fdda"
+          },
+          {
+            "path": "scripts/summarize.py",
+            "size": 2760,
+            "sha256": "fb6aad4fd666cc3142a1ca1a7266ed687de68229366dae84942e35edb3939c2a"
+          },
+          {
+            "path": "scripts/dependency.py",
+            "size": 25554,
+            "sha256": "d5f697800147ab88a8f0cf6e30e3c87ae363fef038439f94effb17d33dea5076"
+          },
+          {
+            "path": "references/scan.md",
+            "size": 5598,
+            "sha256": "abda38591d3f2d4ede679a4710dfa91b20717fa34574dd4c6e0caa83252cfb76"
+          },
+          {
+            "path": "references/recommend.md",
+            "size": 13861,
+            "sha256": "4bf4358af723da005e62938f45f20c7ad6b3e7949e1297d156c5f99c94cfe1ed"
+          },
+          {
+            "path": "references/migrate.md",
+            "size": 2597,
+            "sha256": "08bf9ee22731d407ce5b060a909e44eacad921f8d1db0dfff67b293523410fba"
+          },
+          {
+            "path": "references/products.md",
+            "size": 3663,
+            "sha256": "23f7a6acd9d947575155f6f3324bc40677578889b0cd2a7c529b00474e7c7f30"
+          },
+          {
+            "path": "references/tco.md",
+            "size": 28190,
+            "sha256": "92f0e4792622525925a5a126d04d114f3c5fb8e8830964593d479f4e585231b8"
+          },
+          {
+            "path": "skill-card.md",
+            "size": 3325,
+            "sha256": "aa2cf6f989fe9a00bebb968c03b474d50d1636ed6ccd7a47f29da32bdc665b83"
+          }
+        ],
+        "securityVerdict": {
+          "skillspector": {
+            "status": "suspicious",
+            "severity": "CRITICAL",
+            "recommendation": "DO_NOT_INSTALL",
+            "issueCount": 16
+          },
+          "virustotal": "clean"
+        }
+      },
+      "workingTree": {
+        "version": "1.1.0",
+        "status": "pending-publish",
+        "basedOn": "1.0.0",
+        "note": "Security remediation of the findings recorded against the published release. Not yet published to ClawHub; these files intentionally differ from the published package.",
+        "delta": {
+          "modified": [
+            "SKILL.md",
+            "references/recommend.md",
+            "references/scan.md",
+            "scripts/setup.sh",
+            "scripts/tco_pricing.py"
+          ],
+          "added": [
+            "references/CHECKSUMS.md",
+            "scripts/fetch_scanner.sh"
+          ],
+          "removed": [
+            "_skillhub_meta.json"
+          ]
+        },
+        "files": [
+          {
+            "path": "SKILL.md",
+            "size": 6210,
+            "sha256": "c1dd7e74af5a956d42cb599dee6dc7c8b64cd4dff2e3b7d08b15935eb7a8cf9c"
+          },
+          {
+            "path": "references/CHECKSUMS.md",
+            "size": 3051,
+            "sha256": "bc42055985183626b63d2a4cce722b7b75ffb32349e12fc1097d0a64de13a446"
+          },
+          {
+            "path": "references/migrate.md",
+            "size": 2597,
+            "sha256": "08bf9ee22731d407ce5b060a909e44eacad921f8d1db0dfff67b293523410fba"
+          },
+          {
+            "path": "references/products.md",
+            "size": 3663,
+            "sha256": "23f7a6acd9d947575155f6f3324bc40677578889b0cd2a7c529b00474e7c7f30"
+          },
+          {
+            "path": "references/recommend.md",
+            "size": 14779,
+            "sha256": "3840896707a9819a13e3d777de05456df3f4eba9b1b44553136c3817bbbf5972"
+          },
+          {
+            "path": "references/scan.md",
+            "size": 6987,
+            "sha256": "b89bed0a56534fc3d57dba3a8c2ce1c12d38e1c12eaa161257d455e557960855"
+          },
+          {
+            "path": "references/tco.md",
+            "size": 28190,
+            "sha256": "92f0e4792622525925a5a126d04d114f3c5fb8e8830964593d479f4e585231b8"
+          },
+          {
+            "path": "scripts/dependency.py",
+            "size": 25554,
+            "sha256": "d5f697800147ab88a8f0cf6e30e3c87ae363fef038439f94effb17d33dea5076"
+          },
+          {
+            "path": "scripts/fetch_scanner.sh",
+            "size": 2866,
+            "sha256": "3f6b980b6ce061fb6110519358ad188d7df9453fbfccdf6c368cd7660efcd0fc"
+          },
+          {
+            "path": "scripts/setup.sh",
+            "size": 9700,
+            "sha256": "371cead41066b0e2f4ebc15317f3d758df7b7e73c661948446248179dae7a2b7"
+          },
+          {
+            "path": "scripts/summarize.py",
+            "size": 2760,
+            "sha256": "fb6aad4fd666cc3142a1ca1a7266ed687de68229366dae84942e35edb3939c2a"
+          },
+          {
+            "path": "scripts/tco_pricing.py",
+            "size": 27230,
+            "sha256": "ff054d4f99b1d5a95989f4162167b4740131cc70abe2f2bd8b88ea2048416754"
+          },
+          {
+            "path": "scripts/tco_report.py",
+            "size": 51790,
+            "sha256": "b6aa5c36c866bc60297621d1382fce9d7c2617ccc6cea256f30fde03763bcca3"
+          },
+          {
+            "path": "skill-card.md",
+            "size": 3325,
+            "sha256": "aa2cf6f989fe9a00bebb968c03b474d50d1636ed6ccd7a47f29da32bdc665b83"
+          }
+        ]
+      }
+    }
+  ]
+}
